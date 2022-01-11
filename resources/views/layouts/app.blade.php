@@ -74,6 +74,11 @@
             }
             .movie_card {
                 width: 25%;
+                border: 1px solid #DFDFDF;
+                border-radius: 1rem;
+                padding: 1rem;
+                margin: 0.5rem;
+                text-align: center;
 
             }
         </style>
