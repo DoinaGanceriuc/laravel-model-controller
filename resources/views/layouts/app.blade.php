@@ -68,6 +68,14 @@
             .title {
                 text-align: center;
             }
+            .movies {
+                display: flex;
+                flex-wrap: wrap
+            }
+            .movie_card {
+                width: 25%;
+
+            }
         </style>
     </head>
     <body>

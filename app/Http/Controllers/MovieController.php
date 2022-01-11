@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Movie;
+
 class MovieController extends Controller
 {
     public function index()
@@ -10,6 +12,9 @@ class MovieController extends Controller
     }
     public function movie()
     {
-        return view('movies');
+        //ddd(Movie::all());
+        $movies = Movie::all();
+
+        return view('movies', compact('movies'));
     }
 }
